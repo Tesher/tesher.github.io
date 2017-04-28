@@ -1,0 +1,32 @@
+body {
+	background-image: url("header.jpg");
+    background-color: #cccccc;
+}
+
+h1 {
+	color: #333333;
+	font-size: 2em;
+	font-style: sans serif;
+}
+
+p {
+	color: #333333;
+	font-size: 1.8em;
+	font-style: sans serif;
+	margin: 80px;
+	padding: 60px;
+	
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#slogan {
+	color: #ffffff;
+	font-size: .83em;
+	font-style: sans serif;
+}
+
+
