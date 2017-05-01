@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css?family=Mystery+Quest|Oxygen:300,400,700');
 
@@ -34,3 +35,32 @@ ol {
 }
 
 
+=======
+@import url('https://fonts.googleapis.com/css?family=Mystery+Quest|Oxygen:300,400,700');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #cccccc;
+	color: #333333;
+	font-family: 'Oxygen', sans-serif;
+	font-size:16px;
+	line-height:1.5;
+}
+h1 {	
+	font-size: 2em;	
+}
+ol {
+    text-align: center;
+    list-style-type: none;
+}
+#intro {
+	background-image: url("../images/header.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 20em 0;
+	text-align: center;
+}
+#slogan {
+	color: #ffffff;
+	font-size: 2em;
+}
+>>>>>>> origin/master
