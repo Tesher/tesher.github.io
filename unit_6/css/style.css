@@ -1,0 +1,114 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {
+    background-color: #cccccc;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+    background-color: #cccccc;
+    color:#333;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	background-color: #cccccc;
+}
+
+section {
+	padding:5em 0;
+	background-color: #cccccc;
+}
+
+#two_column {
+	background-color: #cccccc;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #cccccc;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #cccccc;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+article {
+	background-color: #cccccc;
+}
+
+aside {
+	background-color: #cccccc;
+}
+
+h1 {
+	font-size: 2em;
+	background-color: #cccccc;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+ol {
+	padding-left:1.25em;
+}
+
+ul {
+ background-color: purple;
+ display:inline;
+}
+
+li {
+ background-color: purple;
+ display:inline;
+}
+
+nav {background-color: #cccccc;
+}
+
+p {
+	margin-top:1em;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#slogan {
+	color: #ffffff;
+	width: 11em;
+	display: inline-block;
+}
+
+#intro {
+	background:url(../images/hayfield_header.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size: 3em;
+	height: 90vh;
+	padding: 5em 4em 0 0;
+	text-align: right;
+}
+
+
