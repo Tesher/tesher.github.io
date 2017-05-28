@@ -1,0 +1,170 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {
+    background-color: #cccccc;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+  font-size: 1.5em;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+  display: inline-block;
+}
+
+body {
+    background-color: #cccccc;
+    color:#333;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	background-color: #cccccc;
+}
+
+section {
+	padding:5em 0;
+	background-color: #cccccc;
+	width: 100%;
+}
+
+div {
+	 padding: 30px;
+}
+
+#two_column {
+	background-color: #cccccc;
+    border: 0px black solid;
+    padding: 20px;
+    width: 100%
+}
+
+#left {
+    background-color: #ffffff;
+    border: 0px white solid;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+#right {
+    background-color: #ffffff;
+    border: 0px white solid;
+    padding: 20px;
+    float: right;   
+    width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+article {
+	background-color: #cccccc;
+}
+
+aside {
+	background-color: #cccccc;
+	width: 20%;
+}
+
+h1 {
+  font-size: 2em;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 1em;
+  padding: 13px 0;
+  color: #000000;
+  border-bottom-color: #000000;
+}
+
+ol {
+	padding-left:1.25em;
+}
+
+ul {
+ background-color: purple;
+ display:inline;
+}
+
+li {
+ background-color: purple;
+ display:inline;
+}
+
+nav {background-color: #cccccc;
+}
+
+p {
+	margin-top:1em;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#slogan {
+	color: #ffffff;
+	width: 11em;
+	display: inline-block;
+}
+
+#intro {
+	background:url(../images/hayfield_header.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size: 3em;
+	height: 90vh;
+	padding: 5em 4em 0 0;
+	text-align: right;
+}
+
+@media (max-width: 800px) {
+  nav {
+    float: none;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
+
+  img {
+    width: 320px;
+  }
+    #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+    nav a {
+    margin: 0 1em 1em;
+  }
+}
+img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+
